@@ -49,7 +49,7 @@ class HomePageContentState extends State<HomePageContent> {
                 borderRadius: BorderRadius.circular(8),
                 boxShadow: [
                   BoxShadow(
-                    color: const Color.fromARGB(132, 27, 27, 29),
+                    color: AppColors.shadow,
                     blurRadius: 5,
                     spreadRadius: 1,
                   ),
@@ -93,7 +93,7 @@ class HomePageContentState extends State<HomePageContent> {
               fontSize: 16,
             ),
             hintStyle: TextStyle(
-              color: AppColors.black,
+              color: AppColors.grey,
               fontSize: 14,
             ), 
             focusedBorder: OutlineInputBorder(
@@ -119,7 +119,7 @@ class HomePageContentState extends State<HomePageContent> {
               fontSize: 16,
             ),
             hintStyle: TextStyle(
-              color: AppColors.black,
+              color: AppColors.grey,
               fontSize: 14,
             ), 
             focusedBorder: OutlineInputBorder(
@@ -138,7 +138,7 @@ class HomePageContentState extends State<HomePageContent> {
             backgroundColor: AppColors.primaryLight,
             foregroundColor: Colors.white,
             elevation: 2,
-            shadowColor: const Color.fromARGB(192, 27, 27, 29),
+            shadowColor: AppColors.shadow,
             padding: EdgeInsets.symmetric(
               horizontal: 24,
               vertical: 16,
