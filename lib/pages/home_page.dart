@@ -21,7 +21,7 @@ class HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: AppColors.primary,
         title: Text(
-          "App",
+          "Ex001 - Somador de Números",
           style: TextStyle(color: AppColors.white),
         ),
       ),
@@ -31,7 +31,7 @@ class HomePageState extends State<HomePage> {
           width: MediaQuery.of(context).size.width * 0.8,
           child: Container(
             color: AppColors.white,
-            padding: EdgeInsets.all(15),
+            padding: EdgeInsets.all(20),
             child: HomePageContent()
           )
         )
